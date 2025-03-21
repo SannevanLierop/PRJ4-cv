@@ -2,6 +2,9 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+
 
 /* Styles for the body */
 
@@ -14,20 +17,28 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+ font-family: "Lavishly Yours", cursive;
+	font-weight: 400; 
+  font-style: normal;
+	background-color: #959987;
 }
+
 
 .resume-main {
 	background-color: #fffefc;
 }
 
+h4 { 
+color: #959987; 
+}
+
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #CACDC1;
 }
 
 /* Styles for lists in the document */
 
-.biography-details li::before, .skill-list li::before {
+.work-experience li::before, .skill-list li::before {
 	content: ">";
 	font-weight: 800;
 	display: inline-block;
@@ -36,11 +47,16 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	content: ">";
+	color: #959987;
 }
 
 .biography-details li, .skill-list li {
 	padding-left: 1em;
+}
+
+.language { 
+color: #38077D;
 }
 
 /* Styles for contact icons */
